@@ -1,0 +1,48 @@
+===== Automated Test Case Log =====
+
+
+🧪 Test Case 1: Simple direct path A → B
+✅ Path: A → B
+Total Distance: 5
+
+🧪 Test Case 2: Two-step path A → B → C
+✅ Path: A → B → C
+Total Distance: 7
+
+🧪 Test Case 3: No path between A → C
+✅ Correctly reported no path.
+
+🧪 Test Case 4: Multiple shortest paths A → D
+✅ Path: A → B → D
+Total Distance: 4
+
+🧪 Test Case 5: Circular path A → C
+✅ Path: A → C
+Total Distance: 1
+
+🧪 Test Case 6: Long chain L0 → L5
+✅ Path: L0 → L1 → L2 → L3 → L4 → L5
+Total Distance: 5
+
+🧪 Test Case 7: High-cost direct vs low-cost 2-step path
+✅ Path: A → C → B
+Total Distance: 2
+
+🧪 Test Case 8: Disconnected clusters A → E
+✅ Correctly reported no path.
+
+🧪 Test Case 9: Star topology A → C
+✅ Path: A → X → C
+Total Distance: 4
+
+🧪 Test Case 10: Shortcut vs direct path
+✅ Path: A → C → B
+Total Distance: 3
+
+🧪 Test Case 11: Same start and end (A → A)
+✅ Path: A
+Total Distance: 0
+
+🧪 Test Case 12: Large linear graph N0 → N14
+✅ Path: N0 → N1 → N2 → N3 → N4 → N5 → N6 → N7 → N8 → N9 → N10 → N11 → N12 → N13 → N14
+Total Distance: 14
